@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Card from '../components/Card'
 import Search from '../components/Search'
+import Container from '../components/Container'
 
 
 
@@ -42,9 +43,11 @@ class App extends Component {
 
     return (
       <>
-        <h1>Robot Friend Search</h1>
+        <h1 style={{textAlign: 'center'}}>Robot Friend Search</h1>
         <Search searchBox={this.searchBox} />
+        <Container>
         <Card users={filteredRobots} />
+        </Container>
       </>
     )
   }
