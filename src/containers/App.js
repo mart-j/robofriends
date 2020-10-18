@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Card from './Card'
-import Search from './Search'
+import Card from '../components/Card'
+import Search from '../components/Search'
 
 
 
